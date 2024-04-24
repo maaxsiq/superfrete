@@ -7,8 +7,8 @@ export const Home: React.FC = () => {
   return (
     <S.Container>
       <S.Logo src={require('../../assets/Logo.png')}/>
-      <AddMessage />
-      <ListMessage />
+      <AddMessage data-testid="add-message-component"/>
+      <ListMessage data-testid="list-message-component"/>
     </S.Container>
   )
 }
